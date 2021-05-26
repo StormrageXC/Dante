@@ -1,0 +1,41 @@
+{
+    "name": "vue-app-cbw",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --hot-only"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.12",
+        "vue-router": "^3.5.1"
+    },
+    "devDependencies": {
+        "@vue/cli": "^4.5.12",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^5.1.1",
+        "express": "^4.17.1",
+        "html-webpack-plugin": "^5.3.0",
+        "style-loader": "^2.0.0",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.24.3",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "bugs": {
+        "url": "https://github.com/StormrageXC/vue-app/issues"
+    },
+    "homepage": "https://github.com/StormrageXC/vue-app#readme",
+    "keywords": [],
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StormrageXC/vue-app.git"
+    }
+}
