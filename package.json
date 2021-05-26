@@ -1,8 +1,8 @@
 {
-    "name": "Dante",
+    "name": "Poeta_Dante",
     "version": "1.0.0",
-    "description": "",
-    "author": "",
+    "description": "A vue project",
+    "author": "StormrageXC",
     "scripts": {
         "build": "webpack",
         "start": "webpack serve --hot-only"
@@ -28,14 +28,6 @@
         "webpack-cli": "^4.5.0",
         "webpack-dev-server": "^3.11.2"
     },
-    "bugs": {
-        "url": "https://github.com/StormrageXC/vue-app/issues"
-    },
-    "homepage": "https://github.com/StormrageXC/vue-app#readme",
     "keywords": [],
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/StormrageXC/vue-app.git"
-    }
+    "license": "ISC"
 }
