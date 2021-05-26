@@ -9,7 +9,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 * {
     color: red;
     padding: 1px;

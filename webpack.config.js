@@ -12,20 +12,16 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'VUE',
-            template: './index.html', //模板文件
-            // filename: 'view/login/index.html', //目标文件
-            // chunks: ['commom', 'login'], //对应加载的资源
-            // inject: true, //资源加入到底部
-            // hash: true //加入版本号
+            template: 'public/index.html', //模板文件
         })
     ],
     resolve: {
-        // alias: {
-        //     'vue$': 'vue/dist/vue.esm.js',
-        // }
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js',
+        }
     },
     devServer: {
-        host: 'www.webpacktest.com',
+        host: 'localhost',
         historyApiFallback: true,
         hot: true,
         port: 8000

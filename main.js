@@ -1,8 +1,15 @@
 import Vue from 'vue';
 import App from './src/app.vue';
 import Router from 'vue-router';
+import icon from './public/Dante.png'
 // import A from './src/a.vue';
 // import B from './src/b.vue';
+function initIcon(){
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = icon;
+    document.firstElementChild.firstChild.appendChild(link);
+}
 Vue.use(Router);
 const router = new Router({
     mode: 'history',
@@ -26,9 +33,10 @@ const router = new Router({
 })
 const app = new Vue({
     router,
-    // el: '#app',
+    el: '#app',
     // render: (h) => h(App),
     components: { App },
     template: '<App/>'
 })
-app.$mount('#app')
+// app.$mount('#app')
+initIcon();
