@@ -50,7 +50,10 @@
     var getProto = Object.getPrototypeOf;
 
     var slice = arr.slice;
-
+    // flat() 方法会按照一个可指定的深度递归遍历数组，并将所有元素与遍历到的子数组中的元素合并为一个新数组返回
+    // params depth 可选 指定要提取嵌套数组的结构深度，默认值为 1
+    // 一个包含将数组与子数组中所有元素的新数组
+    // falt可将数组展开一层
     var flat = arr.flat ? function(array) {
         return arr.flat.call(array);
     } : function(array) {
